@@ -7017,4 +7017,8 @@ a.sidebar-link.active {
   margin-left: 5px
 }
 
-.pagination { display: none; }
+.pagination,
+.sidebar,
+.sidebar-mask,
+.sidebar-button
+{ display: none !important; }
