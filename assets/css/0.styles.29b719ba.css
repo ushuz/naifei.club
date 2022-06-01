@@ -4052,17 +4052,7 @@ body .vuepress-plugin-demo-block__wrapper .vuepress-plugin-demo-block__footer:ho
   transform: translateY(-100%)
 }
 
-@media(max-width:959px) {
-  .navbar .site-name {
-    display: none
-  }
-}
-
 @media(max-width:719px) {
-  .navbar {
-    padding-left: 4rem
-  }
-
   .navbar .can-hide {
     display: none
   }
@@ -4072,7 +4062,6 @@ body .vuepress-plugin-demo-block__wrapper .vuepress-plugin-demo-block__footer:ho
   }
 
   .navbar .site-name {
-    width: calc(100vw - 9.4rem);
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis
